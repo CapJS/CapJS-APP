@@ -1,0 +1,30 @@
+@charset 'UTF-8';
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #F5F5F5;
+}
+
+html {
+	font-size: 14px;
+}
+
+
+.block-title {
+	text-align: center;
+	.title {
+		margin: 0px;
+		padding: 0px;
+		font-size: 6rem;
+		// text-transform: uppercase;
+		color: #757575;
+		font-weight: 300;
+		font-family: 'Open Sans', sans-serif;
+		&.rt90 {
+			-ms-transform: rotate(90deg);
+			-webkit-transform: rotate(90deg);
+			transform: rotate(90deg);
+		}
+	}
+}
