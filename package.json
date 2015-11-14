@@ -13,7 +13,7 @@
   "author": "Jon Dotsoy <hi@jon.soy>",
   "license": "ISC",
   "dependencies": {
-    "cap.js": "^0.2.0-dev",
+    "cap.js": "^0.2.3-dev",
     "colors": "^1.1.2",
     "gulp": "^3.9.0",
     "gulp-docker-tasks": "0.1.0-dev",
