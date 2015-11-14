@@ -1,7 +1,7 @@
 
 
-module.exports = function () {
-	logger.log("Loading policie");
-
-	return true;
+module.exports = function (req, res, cb) {
+	logger.log("plocies ok");
+	cb();
 }
+
