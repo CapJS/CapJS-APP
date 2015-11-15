@@ -4,11 +4,16 @@
   "version": "0.0.0",
   "description": "A app CapJS",
   "scripts": {
-    "build": "gulp build",
-    "deploy": "gulp deploy",
-    "redeploy": "gulp redeploy",
     "start": "node bootstrap/app.js",
-    "terminate": "gulp terminate"
+
+    "build": "gulp docker-build",
+    "deploy": "gulp docker-deploy",
+    "terminate": "gulp docker-terminate",
+    "docker-start": "gulp docker-start",
+    "docker-stop": "gulp docker-stop",
+    "redeploy": "gulp docker-redeploy",
+    "rebuild": "gulp docker-rebuild",
+    "logs": "gulp docker-logs",
   },
   "author": "Jon Dotsoy <hi@jon.soy>",
   "license": "ISC",
