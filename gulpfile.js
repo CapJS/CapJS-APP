@@ -8,7 +8,7 @@ var docker = new DockerTasks({
 
 docker.attach(gulp);
 
-// (gulp);
+// Tasks in: config/gulp.js
 capjsgulp.gulp(gulp);
 
 

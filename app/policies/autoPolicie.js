@@ -1,7 +1,7 @@
 
 
 module.exports = function (req, res, cb) {
-	logger.log("plocies ok");
+	// logger.log("plocies ok");
 	cb();
 }
 

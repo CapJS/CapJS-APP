@@ -21,10 +21,5 @@ html {
 		color: #757575;
 		font-weight: 300;
 		font-family: 'Open Sans', sans-serif;
-		&.rt90 {
-			-ms-transform: rotate(90deg);
-			-webkit-transform: rotate(90deg);
-			transform: rotate(90deg);
-		}
 	}
 }
