@@ -16,7 +16,7 @@ module.exports.routes = {
 	*/
 	"get HOME": {
 		"path": "/",
-		// "policies": ["autoPolicie", true, () => false, () => true],
+		"policies": ["autoPolicie"],
 		"view": "index",
 		"controller": ["SayController.home"],
 	},
