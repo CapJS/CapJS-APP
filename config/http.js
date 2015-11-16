@@ -17,4 +17,8 @@ module.exports.http = {
 	},
 
 	"cacheControl": "9 days",
+
+	"port": process.env.PORT || 8080,
+	"host": process.env.HOST || "localhost",
+
 }
