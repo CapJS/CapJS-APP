@@ -13,7 +13,7 @@
     "docker-stop": "gulp docker-stop",
     "redeploy": "gulp docker-redeploy",
     "rebuild": "gulp docker-rebuild",
-    "logs": "gulp docker-logs",
+    "logs": "gulp docker-logs"
   },
   "author": "Jon Dotsoy <hi@jon.soy>",
   "license": "ISC",
