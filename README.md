@@ -15,7 +15,7 @@ CapJS is a web framework for javascritp in the back server.
 Require Install this structure to develop a app.
 
 ```bash
-git clone https://github.com/CapJS/CapJS-APP.git proyect
+git clone --origin "CapJS_Structure_APP" https://github.com/CapJS/CapJS-APP.git proyect_name
 ```
 And install dependencies.
 
