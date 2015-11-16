@@ -41,7 +41,7 @@ GLOBAL.logger = capjs.logger;
 GLOBAL._ = capjs.lodash;
 GLOBAL.lodash = capjs.lodash;
 
-GLOBAL.capjs = bootstrap;
+GLOBAL.Capjs = bootstrap;
 
 
 
